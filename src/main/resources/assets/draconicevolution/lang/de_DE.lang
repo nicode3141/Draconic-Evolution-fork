@@ -1,23 +1,23 @@
 //Description format \n=Force new line \% at start of line=add half line space above line
 //Tile Information ----------------------------------------------------------------------------------------------------------------------------------------
-tile.draconicevolution:xRayBlock.name=Flamme der Verzerrung
+tile.draconicevolution:xRayBlock.name=Röntgen Block
 tile.draconicevolution:sunDial.name=Sonnenuhr
 tile.draconicevolution:weatherController.name=Wettermaschine
 tile.draconicevolution:draconiumOre.name=Drakonisches Erz
 tile.draconicevolution:grinder.name=Fleischwolf
 tile.draconicevolution:potentiometer.name=Potentiometer
 tile.draconicevolution:rainSensor.name=Regensensor
-tile.draconicevolution:particle_generator.name=Teilchengenerator
+tile.draconicevolution:particle_generator.name=Partikel Generator
 tile.draconicevolution:playerDetector.name=Spieler Detektor
 tile.draconicevolution:playerDetectorAdvanced.name=Verbesserter Spieler Detektor
-tile.draconicevolution:energyInfuser.name=Energetischer Infundierer
+tile.draconicevolution:energyInfuser.name=Energie Infusor
 tile.draconicevolution:customSpawner.name=Stabilisierter Kreaturenspawner
 tile.draconicevolution:longRangeDislocator1.name=Administrativer Versetzer
 tile.draconicevolution:longRangeDislocator0.name=Langstreckenversetzer
 tile.draconicevolution:generator.name=Generator
 tile.draconicevolution:energy_storage_core.name=Energiekern
 tile.draconicevolution:energyPylon.name=Hochspannungsmast
-tile.draconicevolution:draconium0.name=Drakonischer Block
+tile.draconicevolution:draconium0.name=Drakonium Block
 tile.draconicevolution:draconium1.name=Stein der Auferstehung
 tile.draconicevolution:draconium2.name=Geladener Drakonischer Block
 tile.draconicevolution:cKeyStone.name=Kreativmodus Schlüsselstein
@@ -29,7 +29,7 @@ tile.draconicevolution:infusedObsidian.name=Drakonium Durchzogenes Obsidian
 tile.draconicevolution:dislocatorReceptacle.name=Versetzer Empfänger
 tile.draconicevolution:portal.name=Portal
 tile.draconicevolution:flowGateFlux.name=Fluxdurchlass
-tile.draconicevolution:flowGateFluid.name=Durchlass
+tile.draconicevolution:flowGateFluid.name=Flüssigkeitenurchlass
 tile.draconicevolution:reactorCore.name=Drakonischer Reaktorkern
 tile.draconicevolution:reactorStabilizer.name=Reaktorstabilisierer
 tile.draconicevolution:reactorEnergyInjector.name=Reaktorenergie Injektor
@@ -258,10 +258,11 @@ info.de.hudDisplayConfigInfo2.txt=zum Ändern der Position
 info.de.manual.introTxt.txt=Alles, was Du wissen musst. Alles an einem Ort.
 info.de.manual.indexButton.txt=Index
 info.de.manual.indexButtonTip.txt=Zur Startseite gehen
-info.de.manual.contributors.txt=Draconic Evolution Beitragende
+info.de.manual.contributors.txt=Draconic Evolution 
+info.de.manual.contributors.txt=Beitragende von Draconic Evolution 
 info.de.manual.name.txt=Name
 info.de.manual.contribution.txt=Beitrag
-info.de.manual.clickToGoToSite.txt=(Klicke Namen um Website zu öffnen)
+info.de.manual.clickToGoToSite.txt=(Klicke um Website zu öffnen)
 info.de.manual.contributorsButton.txt=Beitragende
 info.de.manual.contributorsButtonInfo.txt=Eine Liste von Leuten, die zu Draconic Evolution beigetragen haben
 
@@ -363,7 +364,7 @@ achievement.draconicevolution.dstaff=Mit vereinten Kräften!
 achievement.draconicevolution.dstaff.desc=Erschaffe einen Drakonischen Stab
 
 achievement.draconicevolution.soul=Mörder!!!!
-achievement.draconicevolution.soul.desc=Beschaffe die Seele eines ahnungslosen Tieres.
+achievement.draconicevolution.soul.desc=Beschaffe dir die Seele eines ahnungslosen Tieres.
 achievement.draconicevolution.sundial=Zeitwächter
 achievement.draconicevolution.sundial.desc=Baue eine Sonnenuhr und übernimm die Kontrolle über Tag und Nacht
 achievement.draconicevolution.manual=Maximales Wissen!
@@ -389,7 +390,7 @@ item.draconicevolution:wyvernBoots.lore=2Du hast einen Weg gefunden, die Stiefel
 item.draconicevolution:draconicPickaxe.lore=2Viel Mühe und Forschung haben\nes dir ermöglicht, größere Gebiete abzubauen.
 item.draconicevolution:draconicAxe.lore=2Nach vielen fehlgeschlagenen Versuchen\nkannst du nun endlich einen ganzen Baum mit einem einzigen Schlag fällen.
 item.draconicevolution:draconicShovel.lore=2Noch leistungsfähiger!\nDu kannst endlich ein noch größeres Gebiet abbauen!
-item.draconicevolution:draconicHoe.lore=2Drakonium verbessert sogar die Landwirtschaft.\nMit einem einzigen Klick können ganze Gebiete gepflügt werden.
+item.draconicevolution:draconicHoe.lore=2Drakonium verbessert sogar das Ernten.\nMit einem einzigen Klick können ganze Gebiete gepflügt werden.
 item.draconicevolution:draconicSword.lore=2Wyvern war ganz nett, aber drakonische Waffen\nsind einfach das Beste, wenn es um wahre Stärke geht.
 item.draconicevolution:draconicBow.lore=2Die Perfektion im Fernkampf!\nSchneller schießen, explosive Pfeile, noch irgendwelche Wünsche?
 
@@ -407,11 +408,11 @@ entity.DraconicEvolution.ChaosGuardian.name=Chaoswächter
 
 //KeyBinding ----------------------------------------------------------------------------------------------------------------------------------------
 key.placeItem=Platziere einen Gegenstand in der Welt
-key.toolConfig=Werkzeug- & Rüstungskonfigurations-GUI
+key.toolConfig=Werkzeug- & Rüstungskonfigurations-Menü
 
 //Damage ----------------------------------------------------------------------------------------------------------------------------------------
 death.attack.chaos=%1$s wurde durch den Chaoswächter zerfetzt
-death.attack.damage.de.fusionExplode=%1$s wurde durch eine riesige Energiefusion Explosion verdampft
+death.attack.damage.de.fusionExplode=%1$s wurde durch eine gigantische Explosion durch Fusion verdampft
 death.attack.chaosBurst=%1$s wurde durch Dunkle Energie vernichtet
 death.attack.chaosImplosion=%1$s wurde in einen Energiestrudel gezogen und in Vergessenheit zerschlagen
 
@@ -443,7 +444,7 @@ button.de.ArmorFlightLock.name=Sperre Fliegen
 button.de.ArmorSpeedMult.name=Geschwindigkeit Multiplikator
 button.de.ArmorJumpMult.name=Sprung Multiplikator
 button.de.ArmorHillStep.name=Berglauf
-button.de.ArmorSprintOnly.name=Beschleunigung beim Sprinten
+button.de.ArmorSprintOnly.name=Dauerhaft sprinten
 button.de.ToolDigMultiplier.name=Abbau Multiplikator
 button.de.ToolDigAOE.name=Größe
 button.de.ToolDigDepth.name=Abbautiefe
@@ -456,7 +457,7 @@ button.de.EffectiveOnSprint.name=Wirksam beim Sprinten
 button.de.GogglesOfRevealing.name=Magische Sense
 button.de.reactorCharge.txt=Reaktorladung
 button.de.reactorStart.txt=Aktivieren
-button.de.reactorStop.txt=Herunterfahren gestartet
+button.de.reactorStop.txt=Wird heruntergefahren
 button.de.stats.txt=Statistiken
 button.de.statsShow.txt=Zeige
 button.de.statsHide.txt=Verstecke
@@ -473,11 +474,11 @@ gui.de.ctrlAndShift.name=Du kannst Strg und Shift nutzen, um den Wert zu ändern
 gui.de.pressOrScroll.name=Drücken oder Scrollen
 
 gui.de.insert.txt=Einfügen
-gui.de.extract.txt=Herausgeben
+gui.de.extract.txt=Extrahieren
 gui.de.fuel.txt=Treibstoff
 gui.de.coreMass.txt=Kernmasse
 gui.de.reactionTemp.txt=Kernthemperatur
-gui.de.fieldStrength.txt=Stärke des Eindämmungsfeldes
+gui.de.fieldStrength.txt=Stärke des Schildes
 gui.de.energySaturation.txt=Energie Sättigung
 gui.de.fuelConversion.txt=Kraftstoffumwandlungsgrad
 gui.de.fuel.txt=Treibstoff
@@ -498,7 +499,7 @@ gui.de.itemStorage.txt=Item Speicher
 
 
 //Potions ----------------------------------------------------------------------------------------------------------------------------------------
-potion.de.effect.txt=Wirkung
+potion.de.effect.txt=Effekt
 potion.de.flight.txt=Fliegen
 potion.de.highStep.txt=Große Schritte
 potion.de.swiftness.txt=Schnelligkeit
